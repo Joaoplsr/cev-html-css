@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas 
+            cm(Centímetro), mm(Milímetro), in(Inches, Polegadas), pc(Paica)
+            Idicada - px(Pixel)
+
+            Medidas Relativas
+            Indicada -em(Relativa ao tamanho atual da fonte)
+            16px (Geralmente) = em
+            
+            
+            ex(Relativa a altura x)
+            ren(Relativa a fonte configurada no body)
+            vw(View Width, largura da tela)}View Port
+            vh(View Height, altura da tela)}View Port
+
+            */
+            font-size: 1em;
+        }
+
+        h1{
+            font-size: 2.5em;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-style: italic;
+        }
+        
+        h2{
+            /*Mãozinha = Shorthand
+            uma ajuda para simplificar esses 4 códigos
+                  font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 1.5em 'Courier-new', monospace;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sapiente illum laboriosam asperiores odio ad, delectus animi repellat dignissimos sint recusandae deserunt totam aliquid voluptatem sed consequuntur reiciendis tenetur quidem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempora culpa saepe minima dolorum. Sapiente architecto dicta incidunt deserunt porro temporibus autem officia ipsam, repellendus dolorem odio quae provident accusantium!</p>
+
+    <h2>Subtítulo</h2>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, illum. Asperiores sequi animi possimus perferendis vitae optio minus, eligendi autem similique earum qui? Enim hic, laudantium animi nesciunt numquam eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolores et eveniet quod modi similique accusamus eos ipsam, molestiae architecto. Totam et neque veritatis, repellat sunt incidunt amet autem qui!</p>
+
+</body>
+</html>

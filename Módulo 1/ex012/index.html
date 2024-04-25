@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Vídeos Hospedados Localmente</h1>
+    <p>Este vídeo está hospedado no meu servidor.</p>
+
+    <!--Poster é a thumb, controls são os controles, preload é a configuração do precarregamento e width é a largura.-->
+    <video poster="assets/limoes-capa.png" controls preload="metadata" width="500px">
+        <source src="assets/meu-video.mp4" type="video/mp4">
+        <source src="assets/meu-video.m4v" type="video/mp4">
+        <source src="assets/meu-video.webm" type="video/webm">
+        <source src="assets/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com vídeos, clique <a href="assets/meu-video.mp4" download="limões.mp4" type="video/mp4">aqui</a> para fazer o download.</p>
+
+    </video>
+
+    <h1>Vídeos de Outros Locais</h1>
+    <h2>Vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7SU7r4YUCU?si=xPkhiFEgaJOh2ozb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

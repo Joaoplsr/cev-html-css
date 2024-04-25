@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abra esse site em diferentes dispositivos!</p>
+
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="assets/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="assets/foto-m.png" type="image/png">
+        <img src="assets/foto-g.png" alt="Imagem Flexível">
+
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos reproduzir áudios em nosso site!</p>
+
+    <!--O parâmetro 'controls' permite que apareça o controle de audio do navegador
+
+        Podemos reproduzir um áudio da seguinte forma:
+    <audio src="audios/happy-mistake.mp3" controls autoplay></audio>
+    
+    Para uma compatibilidade total com os navegadores, os formatos MP3, WAV e OGG são recomendados.-->
+
+    <!--Vamos utilizar a seguinte forma-->
+
+    <audio preload="metadata" controls>
+        <source src="audios/happy-mistake.mp3" type="audio/mpeg">
+        <source src="audios/happy-mistake.wav" type="audio/wav">
+        <source src="audios/happy-mistake.ogg" type="audio/ogg">
+        <p>Seu navegador não pode reproduzir áudios,<a href="audios/happy-mistake.mp3" download="happy-mistake" type="audio/mpeg">clique aqui</a> para fazer o download do arquivo.</p>
+    </audio>
+
+    <h2>GuanaCast!</h2>
+    <audio controls preload="metadata">
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <p>Pode fazer o download do GuanaCast clicando <a href="audios/guanacast-33.mp3" download="guanacast-33" type="audio/mpeg">aqui</a>.</p>
+
+    
+    
+</body>
+</html>

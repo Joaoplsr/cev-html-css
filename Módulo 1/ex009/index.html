@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando Com Listas</h1>
+        <h2>Listas Ordenadas</h2>
+            <!--Utilizamos a tag <ol>(Ordered List)-->
+            <!--O fechamento da tag </li> se tornou opcional-->
+            <ol type="1"> <!--1,a,A,i,I-->
+            <!--Podemos utilizar parâmetros como 'type', para o tipo
+            de ordenação da lista(letra, numérico) e start para
+            determinar de onde a lista irá começar.-->
+                <li>Acordar
+                <li>Escovar os dentes
+                <li>Tomar café
+                <li>Tomar banho
+                <li>Trabalhar
+                <li>Almoçar
+                <li>Voltar para casa
+                <li>Jantar
+                <li>Tomar banho
+                <li>Dormir
+            </ol>
+        <h2>Listas não Ordenadas</h2>
+            <!--Utilizamos a tag <ul>(Unordered List)-->
+            <ul type="square">
+            <!--Também temos o parâmetro type aqui(circle, disc, square)-->
+                <li>Comprar Pão
+                <li>Comprar Tomate
+                <li>Comprar Leite
+                <li>Comprar Carro
+                <li>Comprar Casa
+            </ul>
+        <h2>Juntando Listas 1.0</h2>
+            <h3>Minhas Linguagens Favoritas</h3>
+            <ol>
+                <li>Antigas</li>
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Fortran</li>
+                    <li>Visual Basic</li>
+                    <li>Delphi</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="a">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>
+            </ol>
+            <h3>Meus Jogos Favoritos</h2>
+            <ol>
+                <li>Computador</li>
+                <ul type="square">
+                    <li>Minecraft</li>
+                    <li>League of Legends</li>
+                </ul>
+                <li>Xbox</li>
+                <ul type="square">
+                    <li>Forza Horizon</li>
+                    <li>GTA V</li>
+                </ul>
+                <li>Arcade</li>
+                <ul type="square">
+                    <li>The King of Fighters</li>
+                    <ul type="circle">
+                        <li>KOF 1998</li>
+                        <li>KOF 2002</li>
+                        <li>KOF 1997</li>
+                    </ul>
+                    <li>Street Fighter 2</li>
+                </ul>
+                <li>Playstation</li>
+                <ul type="square">
+                    <li>God of War</li>
+                    <li>Midnight Club 3</li>
+                </ul>
+            </ol>
+        <h2>Listas de Definições</h2>
+        <!---A tag <dl> vem de Definition List-->
+        <dl>
+            <dt>Termo</dt> <!--Definition Term-->
+            <dd>Descrição</dd> <!--Definition Description-->
+
+            <dt><abbr title="HyperText Markup Language">HTML</abbr></dt>
+            <dd>Linguaguem de marcação para conteúdo de sites</dd>
+
+            <dt>CSS</dt>
+            <dd>Liguagem de marcação para a criação do design de um site.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para gerar interatividade em um site.</dd>
+
+        </dl>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+        <h2>Códigos Fonte e Pré-formatação</h2>
+            <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+            <!--A tag <code>, utiliza uma fonte mono-espaçada para facilitar a leitura de códigos.-->
+            <!--A tag <pre>, executa uma pré-formatação do que vai ser escrito, com as quebras de linha, espaços e etc.-->
+            <pre>
+                <code>
+num = int(input('Digite um valor: '))
+num2 = int(input('Digite outro valor: '))
+soma = num + num2
+if soma % 2 == 0:
+    print(f'A soma desses números equivale a {soma} e é par.')
+else:
+    print(f'A soma desses números equivale a {soma} e é ímpar.')
+                </code>
+            </pre>
+
+        <h2>Citações</h2>
+            <!--A tag <q> significa quote/citação-->
+            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+            <!--Utilizamos ela, ao invés de aspas pois ela dá sentido ao que queremos mostrar.-->
+        <h2>Citações Completas</h2>
+            <p>Segundo Jeff Noble em seu livro HTML para leigos: </p>
+            <!--Agora, uma citação longa, em bloco, uma <blockquote> -->
+                <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+            <!--O parâmetro 'cite' não indica nada visualmente, porém os mecanismos de busca do google entendem que a seguinte frase faz referência ao link dado-->
+                    A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML nesse capítulo descrevem os blocos de texto.
+                </blockquote>
+        <h2>Abreviações</h2>
+            <!--A tag <abbr> vem de abreviação e seu parâmetro 'title' é onde devemos escrever o que significa a abreviação.-->
+            <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+        <h2>Texto Invertido</h2>
+        <!--A tag <bdo> significa bi-directional override-->
+        <!--ltr(Left to Right) e rtl(Right to Left)-->
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+</body>
+</html>
