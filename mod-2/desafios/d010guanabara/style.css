@@ -75,6 +75,7 @@ header > p{
 
 nav{
     top: 0;
+    z-index: 2000;
     position: sticky;
     background-color: var(--cor05);
     padding: 10px;
