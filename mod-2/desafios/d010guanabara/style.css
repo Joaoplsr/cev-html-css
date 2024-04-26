@@ -89,6 +89,7 @@ nav > a{
     padding: 10px;
     font-weight: bold;
     border-radius: 15px;
+    transition-duration: 1s;
 }
 
 nav > a:hover{
@@ -137,6 +138,7 @@ main a{
     padding: 10px;
     font-weight: bold;
     border-radius: 15px;
+    transition-duration: 1s;
 }
 
 main a:hover{
@@ -209,6 +211,7 @@ footer a{
     padding: 10px;
     font-weight: bold;
     border-radius: 15px;
+    transition-duration: 1s;
 }
 
 
