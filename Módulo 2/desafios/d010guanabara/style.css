@@ -70,7 +70,7 @@ header > p{
     padding: 0px 10px;
     text-shadow: 2px 2px 5px #00000081;
     animation: fadeInFromTop 2s ease 0s forwards;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 nav{
