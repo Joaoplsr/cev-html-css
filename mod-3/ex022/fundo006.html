@@ -7,15 +7,23 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+
+            /* background-color: black;
             background-image: url(imagens-cap19/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /*ShortHand Background
+            background: color image position repeat size attachment;*/
+
+            background: black url(imagens-cap19/wallpaper002.jpg) center center no-repeat /*cover 'Size não está funfando normal' */fixed;
             background-size: cover;
         }
         main{
             background-color: aliceblue;
-            width: 400px;
+            max-width: 700px;
             padding: 15px;
             border-radius: 20px;
             margin: auto;
@@ -44,7 +52,7 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi quia omnis consequuntur nobis earum repellendus mollitia, impedit excepturi amet. Obcaecati illo maxime officiis perspiciatis ad asperiores, adipisci fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt distinctio, nihil ducimus quasi repellat odio, repellendus sapiente eum quidem velit quae expedita maiores tempora illum dolores pariatur. Neque, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae suscipit molestiae ex voluptates neque repellendus unde quae? Praesentium, consequatur in unde corporis optio itaque vitae facilis neque. Inventore, explicabo est.
         </p>
-        
+
     </main>
 </body>
 </html>
