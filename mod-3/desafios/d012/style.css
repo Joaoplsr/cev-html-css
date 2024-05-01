@@ -15,20 +15,22 @@ header{
 }
 
 header h1{
+    font-variant: small-caps;
     font-weight: 600;
-    font-size: 3em;
+    font-size: 10vw;
     font-family: 'Passion One';
     margin: 0;
     text-align: center;
-    padding: 30px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 header p{
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0px 0px 20px;
-    font-size: 0.8em;
+    font-size: 1em;
+    padding-bottom: 40px;
 }
 
 header p a{
@@ -43,12 +45,12 @@ header p a:hover{
 
 main p{
     margin: 70px 0px;
-    width: 50vw;
+    width: 39vw;
 
     padding-left: 30px;
     text-align: left;
 
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: 'Sriracha';
 }
 
@@ -78,11 +80,11 @@ main div#foto-2{
 footer{
     background-color: #0A0A0A;
     color: aliceblue;
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0px 0px 20px;
-    font-size: 0.8em;
+    font-size: 1.2em;
     padding: 15px;
 }
 
