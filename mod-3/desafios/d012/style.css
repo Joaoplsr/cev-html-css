@@ -62,6 +62,7 @@ main div.foto-1{
     background-attachment: fixed;
     padding-top: 2vw;
     padding-bottom: 10vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
 }
 
 main div.foto-1 p{
@@ -70,7 +71,7 @@ main div.foto-1 p{
     background-color: rgba(0, 0, 0, 0.26);
     padding: 5px;
     border-radius: 15px;
-    width: 41vw;
+    width: 41vw;    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
 }
 
 main div#foto-2{
